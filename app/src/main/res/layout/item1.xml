@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/purple_700"
+    android:orientation="vertical"
+    android:layout_marginBottom="2dp"
+    >
+<TextView
+    android:id="@+id/std_1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Nouman Tasif"
+    android:textColor="@color/white"
+    android:textSize="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="5dp"/>
+   <TextView
+       android:id="@+id/txtRollno"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+      android:text="191175"
+       android:textSize="20dp"
+       android:layout_marginLeft="35dp"
+       android:layout_marginTop="5dp"
+       android:layout_marginBottom="1dp"
+
+       android:textColor="@color/white"/>
+<ImageView
+    android:id="@+id/img_1"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+   android:src="@drawable/icon_dlete"
+   android:layout_marginLeft="30dp"
+    />
+</LinearLayout>
